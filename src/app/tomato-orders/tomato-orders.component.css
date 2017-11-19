@@ -1,0 +1,24 @@
+.main-container {
+    padding-top: 100px;
+}
+.form-container {
+    padding: 15px;
+}
+.table-container {
+    padding: 15px;
+}
+.label-container {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.size-input {
+    border: 2px dashed; 
+}
+
+.refresh-btn {
+    background-color: #33b062;
+    color: #ffffff;
+    
+}
