@@ -1,7 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { TomatoOrdersService } from './tomato-orders.service';
 import { TomatoOrder } from './models/tomato-order';
-
+/**
+ * This component implements logic to retrieve
+ * amount of tomato orders and display them
+ * in a table. After the user enters number of orders
+ * and click the 'Refresh' button, the retrieved
+ * orders are populated.
+ *
+ *
+ * @export
+ * @class TomatoOrdersComponent
+ * @implements {OnInit}
+ */
 @Component({
   selector: 'app-tomato-orders',
   templateUrl: './tomato-orders.component.html',

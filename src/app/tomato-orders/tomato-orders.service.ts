@@ -2,7 +2,17 @@ import { Injectable } from '@angular/core';
 import { HttpParams, HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 import { TomatoOrder } from './models/tomato-order';
-
+/**
+ * Service used to retrieve orders from the sever.
+ * The baseUrl points to the server application
+ * which serves the outgoing GET requests from this
+ * Angular application. If your bacend application is runing at different URL
+ * please change the baseUrl value.
+ *
+ *
+ * @export
+ * @class TomatoOrdersService
+ */
 @Injectable()
 export class TomatoOrdersService {
 
