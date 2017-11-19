@@ -5,7 +5,7 @@ the provider, number of tomatoes, and the date of the sale.
 The user provides amount of orders to be retrievd and after clicking Refresh boutton,
 the orders are populated on the page. If no amount is specified, 3 orders are retrieved and displayed.
 
-#Installation guide
+## Installation guide
 
 1. Install NodeJS (version >= 6.9) from here `https://nodejs.org/en/download/` .
 2. Install Angular CLI globally by typing `npm install -g @angular/cli` in the console.
